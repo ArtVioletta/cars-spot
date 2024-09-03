@@ -12,7 +12,7 @@ const Header = () => {
         <span className="text-black font-bold text-xl font-roboto-flex">Spot</span>
       </div>
         <nav>
-          <ul className="flex space-x-4 font-roboto-flex text-base font-normal leading-base ">
+          <ul className="flex space-x-4 font-roboto-flex text-base font-normal leading-6 ">
             <li><a href="#" className="text-black-500">Galeria zdjęć</a></li>
             <li><a href="#" className="text-black-500 ml-6">FAQ</a></li>
           </ul>
