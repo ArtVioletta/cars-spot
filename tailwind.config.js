@@ -8,15 +8,10 @@ module.exports = {
         'roboto-condensed': ['"Roboto Condensed"', 'sans-serif'],
         'bebas-neue': ['"Bebas Neue"', 'sans-serif'],
       },
-      fontSize: {
-        'base': '16px',
+      colors: {
+        'custom-gray': '#282828',
       },
-      fontWeight: {
-        'normal': 400, 
-      },
-      lineHeight: {
-        'base': '24px', 
-      },
+      
     },
   },
   plugins: [],
