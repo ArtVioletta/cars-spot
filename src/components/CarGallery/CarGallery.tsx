@@ -9,8 +9,8 @@ const CarGallery = () => {
         <h2 className="text-3xl font-bebas-neue text-[40px] mt-2 mb-6">ZOBACZ NASZĄ GALERIĘ ZDJĘĆ</h2>
         </div>
         <div className="space-x-10">
-        <a href="#" className="text-blue-600 underline font-semibold">Samochody osobowe</a>
-        <a href="#" className="text-black">Samochody dostawcze</a>
+        <a href="#" className="text-blue-600 underline font-roboto-flex">Samochody osobowe</a>
+        <a href="#" className="text-black font-roboto-flex">Samochody dostawcze</a>
       </div>
 
       </section>
