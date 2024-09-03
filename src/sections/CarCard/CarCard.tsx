@@ -47,14 +47,14 @@ const CarCard = () => {
       swipeable
     >
       <div>
-        <img src="./assets/images/Car.png" />
+        <img src="./assets/images/Car.png" alt="car" />
       </div>
       <div>
-        <img src="./assets/images/Jaguar.png" />
+        <img src="./assets/images/Jaguar.png" alt="car" />
       </div>
 
       <div>
-        <img src="./assets/images/Car-2.png" />
+        <img src="./assets/images/Car-2.png" alt="car" />
       </div>
     </Carousel>
   );
