@@ -1,7 +1,7 @@
 import React from 'react';
 const HeroSection = () => {
   return (
-    <section className=" py-24 ">
+    <section className=" py-24">
       <div className=" container flex flex-col gap-1  mx-auto px-4 ">
         <h1 className="text-5xl lg:w-[55%] font-normal mb-4 font-bebas-neue text-[76.29px] leading-[83.92px] tracking-[-0.04em]">
           SPRZEDAJEMY SAMOCHODY
