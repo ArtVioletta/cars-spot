@@ -3,7 +3,7 @@ import { BoltIcon } from '@heroicons/react/24/outline';
 
 const Header = () => {
   return (
-    <header className="relative w-full  h-full sm:mb-0 flex-col sm:flex-row flex container  items-center justify-between mt-7 mx-auto px-4">
+    <header className="relative w-full  h-full sm:mb-0 flex-col sm:flex-row flex container  justify-between mt-7 mx-auto px-4">
       <div className="flex items-center mb-4">
         <BoltIcon className="h-6 w-6  text-blue-700 " />
         <span className=" text-blue-700 font-bold text-xl font-roboto-flex">

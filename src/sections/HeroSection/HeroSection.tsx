@@ -1,18 +1,18 @@
 import React from 'react';
 const HeroSection = () => {
   return (
-    <section className=" py-24">
+    <section className="my-10 sm:my-24 ">
       <div className=" container flex flex-col gap-1  mx-auto px-4 ">
-        <h1 className="text-5xl lg:w-[55%] font-normal mb-4 font-bebas-neue text-[76.29px] leading-[83.92px] tracking-[-0.04em]">
+        <h1 className="text-[48px] sm:text-[76.29px] lg:w-[55%] font-normal mb-4 font-bebas-neue   leading-0 sm:leading-[83.92px] tracking-[-0.04em]">
           SPRZEDAJEMY SAMOCHODY
           <br /> Z EUROPY
         </h1>
-        <p className=" text-base leading-6 font-roboto-condensed font-normal mt-8">
+        <p className=" text-base leading-6 font-roboto-condensed font-normal mt-4 sm:mt-8">
           Kup komfortowy pojazd, aby każda podróż <br />
           była wyjątkowym przeżyciem.
         </p>
 
-        <div className="mt-12 space-x-6 ">
+        <div className=" mt-4 sm:mt-12 space-x-6 ">
           <button className="bg-blue-700 border-blue-700  text-white py-3 border-2 px-6 rounded-md">
             Zobacz zdjęcia
           </button>
