@@ -9,3 +9,7 @@
 .custom-slider-class {
   padding-bottom: 80px !important;
 }
+
+.carousel-container {
+  overflow: hidden; /* Ensures no overflow of images */
+}

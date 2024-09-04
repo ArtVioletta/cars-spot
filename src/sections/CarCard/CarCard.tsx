@@ -13,7 +13,7 @@ const CarCard = () => {
       draggable
       focusOnSelect
       infinite
-      itemClass=""
+      itemClass="carousel-item"
       keyBoardControl
       minimumTouchDrag={80}
       pauseOnHover
@@ -24,17 +24,17 @@ const CarCard = () => {
         desktop: {
           breakpoint: { max: 3000, min: 1024 },
           items: 2,
-          partialVisibilityGutter: 40,
+          partialVisibilityGutter: 0,
         },
         tablet: {
           breakpoint: { max: 1024, min: 464 },
           items: 2,
-          partialVisibilityGutter: 30,
+          partialVisibilityGutter: 0,
         },
         mobile: {
           breakpoint: { max: 499, min: 0 },
           items: 1,
-          partialVisibilityGutter: 30,
+          partialVisibilityGutter: 0,
         },
       }}
       rewind={false}
@@ -46,27 +46,14 @@ const CarCard = () => {
       slidesToSlide={1}
       swipeable
     >
-      <div className="flex justify-center sm:justify-start">
-        <img
-          src="./assets/images/Car.png"
-          alt="car"
-          className="ml-[-19px] sm:ml-0"
-        />
+      <div className="flex justify-center  sm:justify-start px-5">
+        <img src="./assets/images/Car.png" alt="car" />
       </div>
-      <div>
-        <img
-          src="./assets/images/Jaguar.png"
-          alt="car"
-          className="ml-[-19px] sm:ml-0"
-        />
+      <div className="flex justify-center  sm:justify-start px-5">
+        <img src="./assets/images/Jaguar.png" alt="car" />
       </div>
-
-      <div>
-        <img
-          src="./assets/images/Car-2.png"
-          alt="car"
-          className="ml-[-19px] sm:ml-0"
-        />
+      <div className="flex justify-center  sm:justify-start px-5">
+        <img src="./assets/images/Car-2.png" alt="car" />
       </div>
     </Carousel>
   );
