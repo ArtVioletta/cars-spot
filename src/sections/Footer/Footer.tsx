@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className="bg-custom-gray text-white  mt-80  ">
       <div className="grid grid-cols-1 md:grid-cols-2 mb-8 pt-20 container flex flex-col gap-1  mx-auto px-4  ">
         {carsFooter.map((item) => (
-          <div key={item.id} className="w-[576px] h-[185px]">
+          <div key={item.id} className="md:w-[576px] md:h-[185px]">
             <h3 className="font-bold text-2xl leading-9 font-bebas-neue mb-2">
               {item.header}
             </h3>

@@ -3,9 +3,9 @@ import MainPage from './pages/MainPage';
 
 function App() {
   return (
-    <>
+    <div className="overflow-x-hidden">
       <MainPage />
-    </>
+    </div>
   );
 }
 
