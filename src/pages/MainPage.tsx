@@ -1,4 +1,3 @@
-import React from 'react';
 import Header from '../sections/Header/Header';
 import HeroSection from '../sections/HeroSection/HeroSection';
 import CarGallery from '../sections/CarGallery/CarGallery';

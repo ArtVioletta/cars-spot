@@ -3,15 +3,18 @@ import { carsFooter } from '../../shared/data/carsFooter';
 
 const Footer = () => {
   return (
-    <footer className="bg-custom-gray text-white mt-6 sm:mt-20 md:mt-6  ">
-      <div className="grid grid-cols-1 md:grid-cols-2 mb-8 pt-20 container flex flex-col gap-1  mx-auto px-4  ">
+    <footer className="mt-6 bg-custom-gray text-white sm:mt-20 md:mt-6">
+      <div
+        className="container mx-auto mb-8 flex grid grid-cols-1 flex-col gap-1 px-4 pt-20
+          md:grid-cols-2"
+      >
         {carsFooter.map((item) => (
           <div key={item.id} className="mb-5">
-            <h3 className="font-bold text-2xl leading-9 font-bebas-neue mb-2">
+            <h3 className="mb-2 font-bebas-neue text-2xl font-bold leading-9">
               {item.header}
             </h3>
-            <p className=" mb-4">{item.description}</p>
-            <div className=" border-b-2 border-white flex items-center w-max">
+            <p className="mb-4">{item.description}</p>
+            <div className="flex w-max items-center border-b-2 border-white">
               {item.title}
               <img src={item.image} alt="Arrow Down" className="ml-2" />
             </div>
@@ -19,9 +22,9 @@ const Footer = () => {
         ))}
       </div>
 
-      <div className="border-t border-white  pt-6 flex container  gap-1  mx-auto px-4 ">
-        <div className=" w-3/4 font-roboto-condensed  font-bold">Cars Spot</div>
-        <p className=" underline w-1/4 font-roboto-condensed">
+      <div className="container mx-auto flex gap-1 border-t border-white px-4 pt-6">
+        <div className="w-3/4 font-roboto-condensed font-bold">Cars Spot</div>
+        <p className="w-1/4 font-roboto-condensed underline">
           Polityka prywatności
         </p>
       </div>

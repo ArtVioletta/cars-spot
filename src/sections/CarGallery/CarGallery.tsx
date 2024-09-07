@@ -3,19 +3,19 @@ import React from 'react';
 const CarGallery = () => {
   return (
     <section className="mt-20" id="gallery">
-      <div className="mx-auto px-4 container  flex flex-col gap-1  ">
-        <p className="text-blue-700 text-[21.5px] leading-8 font-roboto-condensed">
+      <div className="container mx-auto flex flex-col gap-1 px-4">
+        <p className="font-roboto-condensed text-[21.5px] leading-8 text-blue-700">
           Prezentacja firmy
         </p>
-        <h2 className="text-3xl font-bebas-neue text-[40px] mt-2 mb-6">
+        <h2 className="mb-6 mt-2 font-bebas-neue text-3xl text-[40px]">
           ZOBACZ NASZĄ GALERIĘ ZDJĘĆ
         </h2>
       </div>
-      <div className="space-x-10 mx-auto px-4 container  flex-col gap-1 ">
-        <a href="#gallery" className="text-blue-600 underline font-roboto-flex">
+      <div className="container mx-auto flex-col gap-1 space-x-10 px-4">
+        <a href="#gallery" className="font-roboto-flex text-blue-600 underline">
           Samochody osobowe
         </a>
-        <a href="#" className="text-black font-roboto-flex">
+        <a href="#/" className="font-roboto-flex text-black">
           Samochody dostawcze
         </a>
       </div>

@@ -8,7 +8,7 @@ const CarCard = () => {
       additionalTransfrom={0}
       arrows={false}
       autoPlaySpeed={3000}
-      className=" mt-6 sm:mt-20 p-0 container gap-1  mx-auto px-4"
+      className="container mx-auto mt-6 gap-1 p-0 px-4 sm:mt-20"
       containerClass="container-padding-bottom"
       draggable
       focusOnSelect
@@ -46,13 +46,13 @@ const CarCard = () => {
       slidesToSlide={1}
       swipeable
     >
-      <div className="flex justify-center  sm:justify-start px-5">
+      <div className="flex justify-center px-5 sm:justify-start">
         <img src="./assets/images/Car.png" alt="car" />
       </div>
-      <div className="flex justify-center  sm:justify-start px-5">
+      <div className="flex justify-center px-5 sm:justify-start">
         <img src="./assets/images/Jaguar.png" alt="car" />
       </div>
-      <div className="flex justify-center  sm:justify-start px-5">
+      <div className="flex justify-center px-5 sm:justify-start">
         <img src="./assets/images/Car-2.png" alt="car" />
       </div>
     </Carousel>
